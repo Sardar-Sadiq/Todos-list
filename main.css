@@ -1,0 +1,99 @@
+.todo-box{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  
+   
+  }
+  
+  .todo-container{
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
+   
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  #todo-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #todo-input {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  /* Media queries for responsive layout */
+  @media (max-width: 600px) {
+    .todo-container{
+      width: 90%;
+    }
+  
+    #todo-input {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  #alert-container {
+    margin-bottom: 10px;
+  }
+  
+  .alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .success {
+    background-color: #c7eed8;
+    color: #227f53;
+  }
+  
+  .error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+  }
+  
